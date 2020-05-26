@@ -1,0 +1,53 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Welcome to iSage</title>
+	
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+ 
+<body style="margin:0">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
+            <tbody>
+                <tr>
+                    <td>
+                
+                        <table width="750" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
+                            <tbody>
+                            	<tr height="24"><td colspan="3"></td></tr>
+                                <tr><td colspan="3">
+                                	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" align="left">
+                                    <tbody>
+                                    	<tr><td width="31"></td><td><img src="{{ baseimgpath }}/{{TEMPLATE_LOGO}}.gif" alt="isage" width="120" height="32" border="0" style="display: block"></td></tr>
+                                    </tbody>
+                                    </table>
+                                </td></tr>
+                                <tr><td colspan="3" height="39">&nbsp;</td></tr>
+                                <tr>
+                                	<td width="80"></td>
+                                    <td valign="top" width="324">
+                                    	<p style="font-family: OpenSans, Arial, Helvetica, sans-serif; font-size: 30px; line-height: 1.03; color: #555680;"><b>{{ REGISTER_EMAIL_PROVIDER }} <span style="color:#15aefe;">{{WELCOME_EMAIL_PROVIDER_ISAGE}}</span></b></p><br>
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4">{{WELCOME_EMAIL_ADMIN_DEAR}} <b>{{ lastName }}</b>,<p><br>
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4">{{WELCOME_EMAIL_ADMIN_CLICK_ON_GET_START}}</p><br>
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4"><b>{{WELCOME_EMAIL_ADMIN_USERNAME}} {{ emailId }}<br>{{WELCOME_EMAIL_ADMIN_TEMPORARY_PASSWORD}} {{tempPassword}}</b></p><br>
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4">{{WELCOME_EMAIL_ADMIN_AFTER_YOU_ENTER_YOUR_USERNAME_TEMPORARY_PASSWORD}}</p><br>
+                                        <p><a href="{{ redirectLink }}" target="_blank" title="get started" style="background-color: #852ceb;border-radius: 25px;border: 2px solid #852ceb;display: inline-block;color: #ffffff;font-family: Verdana;font-size: 14px;font-weight: bold;padding: 6px 20px;text-decoration: none;">{{ WELCOME_EMAIL_ADMIN_GET_STARTED }}</a></p><br>
+                                        {{!-- <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4">{{WELCOME_EMAIL_ADMIN_QUESTION_SUPPORT}} <a href="mailto:help@isageapp.com" style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #15aefe; text-decoration: none;">help@isageapp.com</a>.</p><br> --}}
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4">{{WELCOME_EMAIL_ADMIN_REGARDS}} <br><b>{{WELCOME_EMAIL_ADMIN_ISAGE_TEAM}}</b></p> 
+                                    </td>
+                                    <td valign="bottom" width="345" align="right"><img src="{{ baseimgpath }}/{{BACKGROUND_IMAGE_TEMPLATE}}.gif" width="315" height="512" style="display: block;"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+         </table>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+
+<html>
+    <head>
+    	<title>Welcome to iSage</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+         
+    </head>
+    <body style="margin:0">
+        {{!-- {{en}} --}}
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
+            <tbody>
+                <tr>
+                    <td>
+                
+                        <table width="750" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
+                            <tbody>
+                            	<tr height="24"><td colspan="3"></td></tr>
+                                <tr><td colspan="3">
+                                	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" align="left">
+                                    <tbody>
+                                    	<tr><td width="31"></td><td><img src="{{ baseimgpath }}/logo.gif" alt="isage" width="120" height="32" border="0" style="display: block"></td></tr>
+                                    </tbody>
+                                    </table>
+                                </td></tr>
+                                <tr><td colspan="3" height="39">&nbsp;</td></tr>
+                                <tr>
+                                	<td width="80"></td>
+                                    <td valign="top" width="324">
+                                    	{{!-- <p style="font-family: OpenSans, Arial, Helvetica, sans-serif; font-size: 30px; line-height: 1.03; color: #555680;"><b>{{WELCOME_EMAIL_ADMIN_TO}} <span style="color:#15aefe;">{{WELCOME_EMAIL_ADMIN_ENTERPRISE_SET_UP}}</span></b></p><br> --}}
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4">{{WELCOME_EMAIL_ADMIN_DEAR}} <b>{{ firstName }}</b>,<p><br>
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4">{{PATIENT_MADE_NEW_PHYSICIAN_REQUEST}} </p><br>
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4"><b>{{DETAILS_ARE}} </b></p><br>
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4"><b>{{NAME}} {{doctor_firstname}} {{doctor_lastname}}</b></p><br>
+                                        {{!-- <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4"><b>{{LASTNAME}} {{doctor_lastname}}</b></p><br> --}}
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4"><b>{{EMAILID}} {{doctor_emailid}}</b></p><br>
+                                        <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4"><b>{{CELLPHONE}} {{doctor_phone}}</b></p><br>
+                                        {{!-- <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 12px; color: #545454; line-height:1.4">{{WELCOME_EMAIL_ADMIN_AFTER_YOU_ENTER_YOUR_USERNAME_TEMPORARY_PASSWORD}}</p><br> --}}
+                                       
+                                        
+                                    </td>
+                                    <td valign="bottom" width="345" align="right"><img src="{{ baseimgpath }}/path-rose.gif" width="315" height="512" style="display: block;"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+         </table>
+         <script type="text/javascript" src="en.json"></script>
+         <script>
+             var data = JSON.parse(data);
+         </script>
+
+    </body>
+</html>

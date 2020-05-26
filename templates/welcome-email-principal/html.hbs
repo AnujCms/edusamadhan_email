@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+    	<title>Welcome to EDUSAMADHAN</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+         
+    </head>
+    <body style="margin:0">
+        {{!-- {{en}} --}}
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
+            <tbody>
+                <tr>
+                    <td>
+                
+                        <table width="750" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
+                            <tbody>
+                            	<tr height="24"><td colspan="3"></td></tr>
+                                <tr><td colspan="3">
+                                	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" align="left">
+                                    <tbody>
+                                    	<tr><td width="31"></td><td><img src="{{ baseimgpath }}/logo.gif" alt="isage" width="120" height="32" border="0" style="display: block"></td></tr>
+                                    </tbody>
+                                    </table>
+                                </td></tr>
+                                <tr><td colspan="3" height="39">&nbsp;</td></tr>
+                                <tr>
+                                	<td width="80"></td>
+                                    <td valign="top" width="324">
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-serif; font-size: 30px; line-height: 1.03; color: #555680;"><b>Welcome to the <span style="color:#15aefe;">EDUSAMADHAN</span></b></p><br>
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 16px; color: #545454; line-height:1.4">Dear <b>{{ principalName }}</b>,<p><br>
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 14px; color: #545454; line-height:1.4">You are appointed as a <b>{{ userRole }}</b> in <b>{{schoolName}}</b>. </p><br><br>
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 14px; color: #545454; line-height:1.4">As a principal, It is your responsibility to create subjects and time table for the class. Register staff and assign class to them.</p> <br>
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 14px; color: #545454; line-height:1.4">We're super excited to support you and your staff and students . If you have any questions related to software, we're here to help. You can contact us at <a href={{mailToCustomerSupportLInk}} style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 14px; color: #15aefe; text-decoration: none;">{{customerSupportLink}}</a>.</p><br>
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 14px; color: #545454; line-height:1.4">Uername: <b>{{emailId}}</b></p>
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 14px; color: #545454; line-height:1.4">Password: <b>{{tempPassword}}</b></p><br>
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 14px; color: #545454; line-height:1.4">You can login with this username and password.</p>
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 14px; color: #545454; line-height:1.4"> <b>Click below to login.</b></p><br>
+                                    <p><a href="{{ redirectLink }}" target="_blank" title="get started" style="background-color: #852ceb;border-radius: 25px;border: 2px solid #852ceb;display: inline-block;color: #ffffff;font-family: Verdana;font-size: 14px;font-weight: bold;padding: 6px 20px;text-decoration: none;">LOGIN</a></p><br>
+                                    <p style="font-family: OpenSans, Arial, Helvetica, sans-seri; font-size: 14px; color: #545454; line-height:1.4"> Regards, <br><b>The EDUSAMADHAN Team</b></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+         </table>
+         <script type="text/javascript" src="en.json"></script>
+         <script>
+             var data = JSON.parse(data);
+         </script>
+
+    </body>
+</html>
